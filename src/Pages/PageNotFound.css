@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Manrope:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --color:#14ac5f;
+}
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.pageNotFoundContainer{
+    height: 40vh;
+    margin: 5% 0 25% 30%;    
+
+}
+.pageNotFoundContainer h1{
+    font-size: 256px;
+    color: var(--color);
+    padding: 50px 0 0 0 ;
+}
+.pageNotFoundContainer h3{
+    font-size: 40px;
+    padding-left: 10%;
+}
+
+.pageNotFoundContainer p{
+    font-size: 24px;
+}
+.pageNotFoundContainer button{
+    font-size: 20px;
+    border-radius: 4px;
+    margin-left: 10%;
+    padding: 10px 30px;
+    background-color: #fff;
+    transition: 420ms ease-in;
+    border: 2px solid var(--color);
+}
+.pageNotFoundContainer button:hover{
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .2);
+}
+.pageNotFoundContainer a{
+    color: var(--color);
+}
+
+@media (min-width:890px) and (max-width:1137px){
+    .pageNotFoundContainer{
+        height: 70vh;
+        margin: 20% 0 15% 15%;    
+        text-align: center;
+    }
+    .pageNotFoundContainer h1{
+        font-size: 32px;
+    }
+    .pageNotFoundContainer h3{
+        font-size: 24px;
+        padding-left:0 ;
+    }
+    .pageNotFoundContainer button{
+        margin-left: 5%;
+    }
+}
+
+
+@media (min-width:635px) and (max-width:889px){
+    .pageNotFoundContainer{
+        height: 70vh;
+        margin: 20% 0 15% 15%;    
+        text-align: center;
+    }
+    .pageNotFoundContainer h1{
+        font-size: 180px;
+        padding:0;
+        margin: auto;
+        text-align: center;
+    }
+    .pageNotFoundContainer h3{
+        font-size: 70px;
+        padding-left: 0 ;
+        margin: auto;
+        text-align: center;
+    }
+    .pageNotFoundContainer p{
+        padding-bottom: 20px;
+    }
+    .pageNotFoundContainer button{
+        margin-left: 5%;
+    }
+}
+
+@media (min-width:301px) and (max-width:634px){
+    .pageNotFoundContainer{
+        height: 70vh;
+        margin: 20% 0 15% 10%;    
+        text-align: center;
+    }
+    .pageNotFoundContainer h1{
+        font-size: 130px;
+        padding:0;
+        margin: auto;
+        text-align: center;
+    }
+    .pageNotFoundContainer h3{
+        font-size: 40px;
+        padding-left: 0 ;
+        margin: auto;
+        text-align: center;
+    }
+    .pageNotFoundContainer p{
+        padding-bottom: 20px;
+    }
+    .pageNotFoundContainer button{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width:300px){
+    .pageNotFoundContainer{
+        height: 70vh;
+        margin: 45% 0 15% 5%;    
+        text-align: center;
+    }
+    .pageNotFoundContainer h1{
+        font-size: 80px;
+        padding:0;
+        margin: auto;
+        text-align: center;
+    }
+    .pageNotFoundContainer h3{
+        font-size: 20px;
+        padding-left: 0 ;
+        margin: auto;
+        text-align: center;
+    }
+    .pageNotFoundContainer p{
+        padding-bottom: 20px;
+    }
+    .pageNotFoundContainer button{
+        margin-left: 5%;
+    }
+}

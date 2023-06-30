@@ -1,0 +1,1045 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Manrope:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --navbarBg:#fff;
+    --navbarColor:#2c2d33;
+    --hamburgerColor:#14ac5f;
+    --workBg:#eff2f5;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.homeContainer{
+    padding: 0;
+    margin: 78.3px 0 0 0;
+}
+.homeImage{
+    width: 100%;
+    height: 688px;
+    object-fit:cover;
+}
+.homeContent{
+    top: 20%;
+    left: 5%;
+    width: 48%;
+    text-align: start;
+    position: absolute;
+    padding: 16px 48px 16px 24px;
+    background-color:  rgba(255,255,255,.8);
+}
+.homeContent h3{
+    font-size: 24px;
+    padding-right: 48px;
+    color: var(--hamburgerColor);
+}
+.homeContent h1{
+    color: black;
+    font-size: 48px;
+    line-height: 58px;
+    padding-right: 48px;
+}
+.homeContent p{
+    padding-right: 48px;
+    padding-bottom: 24px;
+    color: rgba(0,0,0,.8);
+}
+.homeContent button{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    color: var(--navbarBg);
+    transition: 100ms ease-out;
+    background-color: var(--hamburgerColor);
+}
+.homeContent button:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: rgba(20, 172, 95,.8);
+
+}
+/* Home Ends */
+/* Main Starts */
+
+.differenceContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 64px 24px 32px 48px; 
+}
+.differenceContainer img{
+    width: 50%;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 10px;
+}
+.differenceText{
+    padding-left: 48px;
+    text-align: start;
+}
+.differenceText h2{
+    font-size: 48px;
+    font-weight: 400;
+    padding-right: 64px;
+}
+.differenceText p{
+    font-size: 16px;
+    line-height:28px;
+    word-spacing: 4px;
+    padding-right: 56px;
+    color: rgba(0,0,0,.8);
+}
+
+.differenceText span{
+    color: var(--hamburgerColor);
+}
+
+.clientsContainer{
+    padding: 64px 24px 0 24px;
+}
+.clientsContainer h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.clientsContainer h1{
+    font-size: 40px;
+    padding-top: 16px;
+    text-align: center;
+    padding-bottom: 32px;
+    color: var(--hamburgerColor);
+}
+
+.serviceContainer{
+    padding: 64px 0 0 0;
+    background-color: rgba(255,255,255,.1);
+
+}
+.serviceContainer h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding: 48px 48px;
+}
+.serviceContainer span{
+    text-align: start;
+    font-weight: 600;
+    color: var(--hamburgerColor);
+}
+.serviceContent{
+    display:grid;
+    align-items: start;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.serviceData{
+    height: auto;
+    display: flex;
+    margin-right: 32px;
+    padding: 64px 16px;
+    margin-bottom: 32px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--navbarBg);
+    filter: drop-shadow(15px 15px 15px #f4f7f8);
+}
+.serviceData img{
+    width: 20%;
+    padding: 0;
+}
+.serviceData h3{
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: start;
+}
+.serviceText{
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    padding: 16px 8px;
+    position: absolute;
+    transition: 150ms ease-in;
+    color: var(--navbarColor);
+    background-color: var(--navbarBg);
+}
+.serviceText h1{
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: start;
+}
+.serviceData strong{
+    padding: 0;
+    font-size:12px;
+    font-weight: 500;
+    text-align: start;
+}
+.serviceData:hover .serviceText{
+    opacity: 1;
+}   
+
+.workPlaceHeader{
+    background-color: var(--workBg);
+    padding: 64px 24px;
+}
+.workPlaceHeader h1{
+    font-size: 48px;
+    margin: 16px 98px;
+    text-align: center;
+}
+.workPlaceHeader span{
+    color: var(--hamburgerColor);
+}
+.workPlaceHeader p{
+    margin: 0 148px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0,0,0,.8);
+}
+
+.workPlaceMain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.workPlaceImage{
+    width: 33.3%;
+    border: none;
+    border-radius: 10px;
+}
+.workPlaceFooter{
+    padding: 48px 32px;
+    background-color: var(--workBg);
+}
+.workPlaceFooter h1{
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    padding: 64px 32px 0 16px;
+}
+.workPlaceFooter span{
+    font-weight: 500;
+    color: var(--hamburgerColor);
+}
+.workPlaceFooter p{
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0,0,0,.8);
+}
+.workPlaceCountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.workPlaceData{
+    position: relative;
+}
+.workPlaceData img{
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,.4));
+}
+.workPlaceData span{
+    top: 25%;
+    left: 25%;
+    gap: 24px;
+    font-size: 32px;
+    font-weight: 600;
+    position: absolute;
+    color: var(--hamburgerColor);
+}
+.workPlaceData h4{
+    left: 0;
+    font-size: 20px;
+    padding-top:48px;
+    position: absolute;
+    place-items: center;
+    color: var(--hamburgerColor);
+}
+.workWithUs{
+    padding: 40px 24px;
+    background-color: var(--workBg);
+}
+.workWithUsTitle{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: start;
+    padding: 8px 16px 8px 32px ;
+}
+.workWithUs strong{
+    color: var(--hamburgerColor);
+}
+.workWithUsContent{
+    display: flex;
+    padding-bottom: 24px;
+    
+}
+.worKWithUsData{
+    padding: 24px;
+    width: 50%;
+}
+.workWithUsImage{
+    width: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.workWithUsContent button{
+    width: 25%;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 24px 0 0 32px;
+    color: var(--navbarBg);
+    transition: 200ms ease-in;
+    background-color: var(--hamburgerColor);
+    filter: drop-shadow(5px 5px 5px gray    );
+}
+.workWithUsContent button:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: #26aa68;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+}
+.joinContainer{
+    padding: 64px 16px;
+}
+.joinHeader h2{
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+}
+.joinHeader strong {
+    color: var(--hamburgerColor);
+}
+.joinHeader p{
+    font-size: 20px;
+    text-align: center;
+    padding: 16px 112px;
+}
+.joinMain{
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.joinData{
+    width: 25%;
+    display: flex;
+    padding-top: 24px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.joinData h2{
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.joinData p{
+    font-size: 15px;
+    padding: 8px 16px;
+    align-items: center;
+    color: rgba(0,0,0,.7);
+}
+.joinData img{
+    width: 15%;
+    padding: 16px 0;
+}
+.joinMain button{
+    border: none;
+    font-size:20px;
+    margin-left:35%;
+    margin-top: 32px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: var(--navbarBg);
+    transition: 200ms ease-in;
+    filter: drop-shadow(5px 5px 5px gray);
+    background-color: var(--hamburgerColor);
+}
+.joinMain button:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: #26aa68;
+}.copyRightContainer{
+    background-color: var(--workBg);
+    padding: 24px;
+}
+.copyRightData{
+    display: flex;
+    padding-top: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerIcon{
+    font-size: 40px;
+    padding: 0 16px;
+    color: var(--hamburgerColor);
+}
+.footerIcon:hover{
+    cursor: pointer;
+}
+
+
+/* Main Ends */
+
+/* Media Queries Start */
+
+@media (max-width:320px) {
+    .homeContent{
+        top: 10%;
+        width: 90%;
+        padding: 16px 16px 16px 16px;
+    }
+    .homeContent h3{
+        font-size: 16px;
+        padding-right: 8px;
+        padding-bottom: 16px;
+    }
+    .homeContent p{
+        padding-right: 8px;
+        padding-bottom: 24px;
+        padding-bottom: 16px;
+    }
+    .homeContent h1{
+        font-size: 16px;
+        line-height: 24px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+    }
+    .homeContent button{
+        padding: 8px 8px;
+    }
+    
+    .differenceContainer{
+        padding: 64px 0 32px 0; 
+        flex-direction: column;
+    }
+    .differenceContainer img{
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .differenceText{
+        padding-left: 16px;
+    }
+    .differenceText h2{
+        font-size: 24px;
+        padding-top: 16px;
+        text-align: center;
+    }
+    .differenceText p{
+        float: right;
+        font-size: 16px;
+        line-height:28px;
+        padding-right: 8px;
+        color: rgba(0,0,0,.8);
+    }
+    .clientsContainer{
+        padding: 48px 24px 0 24px;
+    }
+    .clientsContainer h2{
+        font-size: 24px;
+    }
+    .clientsContainer h1{
+        font-size: 24px;
+    }
+   
+    .serviceContainer{
+        padding: 32px 16px 0 16px;
+    }
+    .serviceContainer h2{
+        font-size: 24px;
+    }
+    .serviceContainer span{
+        padding-bottom: 24px;
+    }
+    .serviceContent{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .serviceData{
+        width: 90%;
+        border: none;
+        margin-left: 32px;
+        padding: 40px 32px;
+        margin-bottom: 24px;
+        justify-content:center; 
+       }
+    .serviceData img{
+        width: 30%;
+        font-size: 24px;
+        margin-top: 24px;
+    }
+    .serviceData h3{
+        font-size: 16px;
+        padding-top: 24px;
+        text-align: center;
+    }
+    .serviceText{   
+        padding: 8px 8px;
+    }
+    .serviceText h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    .serviceData strong{
+        font-size:12px;
+        font-weight: 600;
+        padding-bottom: 24px;
+    }
+
+    .workPlaceHeader{
+        padding: 0;
+    }
+    .workPlaceHeader h1{
+        margin: 0;
+        font-size: 32px;
+        text-align: start;
+        padding: 24px 16px;
+    }
+    .workPlaceHeader p{
+        margin: 0;
+        text-align: start;
+        padding: 24px 16px;
+    }
+    .workPlaceMain{
+        flex-direction: column;
+    }
+    .workPlaceImage{
+        width: 100%;
+        border-radius: 8px;
+    }
+    .workPlaceFooter h1{
+        font-size: 32px;
+        text-align: start;
+        padding: 16px 8px 0 0;
+    }
+    .workPlaceFooter p{
+        text-align: start;
+        padding: 8px 0 64px 0 ;
+    }
+    .workPlaceCountContainer{
+        flex-wrap: wrap;
+    }
+    .workPlaceData{
+        width: 50%;
+    }
+    .workPlaceData img{
+        width: 100%;
+    }
+    .workPlaceData span{
+        top: 20%;
+        gap: 16px;
+    }
+    .workPlaceData h4{
+        font-size: 13px;
+        padding-top:32px;
+    }
+    .workWithUsTitle{
+        padding: 0;
+        font-size: 32px;
+    }
+    .workWithUsContent{
+        padding-top: 24px;
+        flex-direction: column;
+        
+    }
+    .worKWithUsData{
+        gap: 8px;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .worKWithUsData img{
+        width: 20%;
+        padding-top: 16px;
+    }
+    .worKWithUsData h3{
+        font-weight: 500;
+    }
+    .worKWithUsData p{
+        word-spacing: 6px;
+        color: rgba(0,0,0,.8);
+    }
+    .workWithUsContent button{
+        width: 80%;
+        border: none;
+        margin: 24px 0;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    .workWithUsImage{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .joinContainer{
+        padding: 24px 16px;
+    }
+    .joinHeader h2{
+        font-size: 40px;
+    }
+    .joinHeader p{
+        padding: 8px 8px;
+        text-align: start;
+    }
+    .joinMain{
+        padding: 24px 0;
+        flex-wrap: wrap;
+    }
+    .joinData{
+        width: 100%;
+        align-items: start;
+        justify-content: start;
+    }
+    .joinData img{
+        width: 20%;
+        padding: 8px 0;
+    }
+    .joinMain button{
+        font-size:16px;
+        margin-left:15%;
+        padding: 10px 20px;
+    }
+    
+   
+}
+
+@media (min-width:321px) and (max-width:640px){
+    .homeContent{
+        top: 8%;
+        width: 90%;
+        padding: 16px 16px 16px 16px;
+    }
+    .homeContent h3{
+        font-size: 24px;
+        word-spacing: 6px;
+        padding-right: 8px;
+        padding-bottom: 16px;
+    }
+    .homeContent p{
+        font-size: 20px;
+        word-spacing: 4px;
+        padding-right: 8px;
+        padding-bottom: 24px;
+        padding-bottom: 16px;
+        color: rgba(0,0,0,.8);
+    }
+    .homeContent h1{
+        font-size: 24px;
+        line-height: 32px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+    }
+    .homeContent button{
+        border: none;
+        padding: 16px 30px;
+    }
+    .differenceContainer{
+        padding: 64px 0 32px 0; 
+        flex-direction: column;
+    }
+    .differenceContainer img{
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .differenceText{
+        padding-left: 16px;
+    }
+    .differenceText h2{
+        font-size: 32px;
+        padding-top: 24px;
+        text-align: center;
+    }
+    .differenceText p{
+        font-size: 20px;
+        line-height:28px;
+        padding-right: 24px;
+    }
+    .clientsContainer{
+        padding: 48px 24px 0 24px;
+    }
+    .clientsContainer h2{
+        font-size: 24px;
+    }
+    .clientsContainer h1{
+        font-size: 24px;
+    }
+    .serviceContainer{
+        padding: 32px 16px 0 16px;
+
+    }
+    .serviceContainer h2{
+        font-size: 24px;
+    }
+    .serviceContainer span{
+        padding-bottom: 24px;
+    }
+    .serviceContent{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .serviceData{
+        width: 100%;
+        border: none;
+        margin-left: 32px;
+        padding: 40px 32px;
+        margin-bottom: 24px;
+        justify-content:center;
+   }
+    .serviceData img{
+        width: 30%;
+        font-size: 24px;
+        margin-top: 24px;
+    }
+    .serviceData h3{
+        padding-top: 24px;
+        text-align: center;
+    }
+    .serviceText{
+        padding: 8px 8px;
+    }
+    .serviceText h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .serviceData strong{
+         font-size:16px;
+         font-weight: 600;
+         padding-bottom: 24px;
+    }
+    .workPlaceHeader{
+        padding: 0;
+    }
+    .workPlaceHeader h1{
+        margin: 0;
+        font-size: 38px;
+        text-align: start;
+        padding: 24px 16px;
+    }
+    .workPlaceHeader p{
+        margin: 0;
+        font-size: 20px;
+        text-align: start;
+        padding: 16px 16px;
+    }
+    .workPlaceMain{
+        flex-direction: column;
+    }
+    .workPlaceImage{
+        width: 100%;
+    }
+    .workPlaceFooter h1{
+        font-size: 40px;
+        padding: 24px 16px 0 16px;
+    }
+    .workPlaceFooter p{
+        font-size: 24px;
+        font-weight: 400;
+        text-align: start;
+        color: rgba(0,0,0,.8);
+        padding: 8px 16px 64px 16px ;
+    }
+    .workPlaceCountContainer{
+        flex-wrap: wrap;
+    }
+    .workPlaceData{
+        width: 50%;
+    }
+    .workPlaceData img{
+        width: 100%;
+    }
+    .workPlaceData span{
+        top: 20%;
+        gap: 16px;
+        font-size: 20px;
+    }
+    .workPlaceData h4{
+        font-size: 16px;
+        padding-top:32px ;
+    }
+    .workWithUsTitle{
+        padding: 0;
+        font-size: 32px;
+    }
+    .workWithUsContent{
+        padding-top: 24px;
+        flex-direction: column;
+        
+    }
+    .worKWithUsData{
+        gap: 8px;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .worKWithUsData img{
+        width: 20%;
+        padding-top: 16px;
+    }
+    .worKWithUsData h3{
+        font-weight: 500;
+    }
+    .worKWithUsData p{
+        word-spacing: 6px;
+        color: rgba(0,0,0,.8);
+    }
+    .workWithUsContent button{
+        width: 80%;
+        margin: 24px 0;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    .workWithUsImage{
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 10px;
+    }
+    .joinContainer{
+        padding: 24px 16px;
+    }
+    .joinHeader p{
+        padding: 8px 8px;
+    }
+    .joinMain{
+        padding: 24px 0;
+    }
+    .joinData{
+        width: 100%;
+        align-items: start;
+        justify-content: start;
+    }
+    .joinData h2{
+        font-size: 24px;
+    }
+    .joinData img{
+        width: 20%;
+    }
+    .joinMain button{
+        margin-left:15%;
+        margin-top: 32px;
+    }
+    
+    
+}
+@media (min-width:641px) and (max-width:1024px){
+    .homeContent{
+        top: 10%;
+        width: 90%;
+        padding: 48px 64px 24px 32px;
+    }
+    .homeContent h3{
+        font-size:32px;
+        padding-bottom: 24px;
+    }
+    .homeContent p{
+        font-size: 24px;
+        padding-bottom: 48px;
+        color: rgba(0,0,0,.8);
+    }
+    .homeContent h1{
+        font-size: 40px;
+        padding-bottom: 16px;
+    }
+    .homeContent button{
+        border: none;
+        font-size: 24px;
+        padding: 16px 30px;
+    }
+    .differenceContainer{
+        padding: 64px 0 32px 0; 
+        flex-direction: column-reverse;
+    }
+    .differenceContainer img{
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .differenceText{
+        padding-left: 16px;
+    }
+    .differenceText h2{
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+    .differenceText p{
+        font-size: 20px;
+        line-height:28px;
+        padding-bottom: 32px;
+    }
+    .clientsContainer{
+        padding: 48px 24px 0 24px;
+    }
+    .clientsContainer h2{
+        font-size: 32px;
+    }
+    .clientsContainer h1{
+        font-size: 32px;
+    }   
+    .serviceContainer{
+        padding: 64px 24px 0 24px;
+    }
+    .serviceContainer h2{
+        padding: 48px 48px;
+    }
+    .serviceContent{
+        display:grid;
+        align-items: center;
+        grid-template-columns: 50% 50%;
+    }
+    .serviceData{
+        padding: 40px 32px;
+        margin-right: 32px;
+    }
+    .serviceData img{
+        width: 30%;
+        font-size: 24px;
+        margin-top: 24px;
+    }
+    .serviceData h3{
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 24px;
+    }
+    .serviceText{        
+        padding: 24px 16px;
+    }
+    .serviceText h1{
+        font-size: 19px;
+        text-align: center;
+        padding-bottom: 8px ;
+    }
+    .serviceData strong{
+        font-size:16px;
+    } 
+    .workPlaceHeader{
+        padding: 0;
+    }
+    .workPlaceHeader h1{
+        margin: 0;
+        font-size: 48px;
+        padding: 64px 16px 16px 16px;
+    }
+    .workPlaceHeader p{
+        margin: 0;
+        font-size:24px;
+        padding: 24px 16px;
+    }
+    .workPlaceMain{
+        flex-direction: column;
+    }
+    .workPlaceImage{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .workPlaceFooter h1{
+        font-size: 64px;
+        padding: 80px 24px 0 0;
+    }
+    .workPlaceFooter p{
+        font-size: 32px;
+        text-align: start;
+        padding: 24px 40px 64px 64px ;
+    }
+    .workPlaceCountContainer{
+        flex-wrap: wrap;
+    }
+    .workPlaceData{
+        width: 50%;
+    }
+    .workPlaceData img{
+        width: 80%;
+    }
+    .workPlaceData span{
+        top: 20%;
+        gap: 16px;
+        font-size: 28px;
+    }
+    .workPlaceData h4{
+        font-size: 28px;
+        padding-top:32px ;
+    }
+    .workWithUsTitle{
+        padding: 0;
+        font-size: 32px;
+    }
+    .workWithUsContent{
+        padding-top: 24px;
+        flex-direction: column;
+        
+    }
+    .worKWithUsData{
+        gap: 8px;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .worKWithUsData img{
+        width: 15%;
+        padding-top: 24px;
+    }
+    .worKWithUsData h3{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .worKWithUsData p{
+        font-size: 20px;
+        word-spacing: 6px;
+        padding-bottom: 24px;
+        color: rgba(0,0,0,.8);
+    }
+    .workWithUsContent button{
+        width: 40%;
+        margin: 32px 0;
+        font-size: 26px;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    .workWithUsImage{
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 10px;
+    }
+    .joinHeader p{
+        padding: 16px 8px;
+    }
+    .joinData{
+        width: 50%;
+    }
+    .joinData img{
+        width: 20%;
+    }
+    
+}
+
+/* Media Queries Ends */
